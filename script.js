@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         jaasContainer.classList.remove('hidden');
         
         const api = new JitsiMeetExternalAPI("8x8.vc", {
-            roomName: "vpaas-magic-cookie-9634cd91423c4863b1b67892fcdf0fbe/SampleAppAcceptableTechnologiesPromiseLive",
+            roomName: "tecnologias_emergentes",
             parentNode: jaasContainer,
             // Make sure to include a JWT if you intend to record,
             // make outbound calls or use any other premium features!
